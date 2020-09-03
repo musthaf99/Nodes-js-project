@@ -1,0 +1,63 @@
+{
+  "_from": "charm@1.0.0",
+  "_id": "charm@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-bPtp3cw9ZIUoYVvS6f/hT7lwua4=",
+  "_location": "/charm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "charm@1.0.0",
+    "name": "charm",
+    "escapedName": "charm",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/bucketlist"
+  ],
+  "_resolved": "https://registry.npmjs.org/charm/-/charm-1.0.0.tgz",
+  "_shasum": "6cfb69ddcc3d648528615bd2e9ffe14fb970b9ae",
+  "_spec": "charm@1.0.0",
+  "_where": "C:\\Users\\ELCOT\\Desktop\\Bucketlistapp\\node_modules\\bucketlist",
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "bugs": {
+    "url": "https://github.com/substack/node-charm/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "ansi control sequences for terminal cursor hopping and colors",
+  "directories": {
+    "lib": ".",
+    "example": "example",
+    "test": "test"
+  },
+  "engine": {
+    "node": ">=0.4"
+  },
+  "homepage": "https://github.com/substack/node-charm#readme",
+  "keywords": [
+    "terminal",
+    "ansi",
+    "cursor",
+    "color",
+    "console",
+    "control",
+    "escape",
+    "sequence"
+  ],
+  "license": "MIT/X11",
+  "main": "index.js",
+  "name": "charm",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/substack/node-charm.git"
+  },
+  "version": "1.0.0"
+}

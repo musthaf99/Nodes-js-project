@@ -1,0 +1,67 @@
+{
+  "_from": "pad@1.0.0",
+  "_id": "pad@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-qPxW0kfX92EW0kdRKpOHtzi3sG4=",
+  "_location": "/pad",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "pad@1.0.0",
+    "name": "pad",
+    "escapedName": "pad",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/bucketlist"
+  ],
+  "_resolved": "https://registry.npmjs.org/pad/-/pad-1.0.0.tgz",
+  "_shasum": "a8fc56d247d7f76116d247512a9387b738b7b06e",
+  "_spec": "pad@1.0.0",
+  "_where": "C:\\Users\\ELCOT\\Desktop\\Bucketlistapp\\node_modules\\bucketlist",
+  "author": {
+    "name": "David Worms",
+    "email": "david@adaltas.com"
+  },
+  "bugs": {
+    "url": "https://github.com/wdavidw/node-pad/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "David Worms",
+      "email": "david@adaltas.com"
+    }
+  ],
+  "deprecated": false,
+  "description": "Left and right string padding",
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "mocha": "^2.3.3",
+    "should": "^7.1.0"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "homepage": "https://github.com/wdavidw/node-pad#readme",
+  "keywords": [
+    "string",
+    "pad"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "./lib",
+  "name": "pad",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdavidw/node-pad.git"
+  },
+  "scripts": {
+    "coffee": "coffee -b -o lib src",
+    "pretest": "coffee -b -o lib src",
+    "test": "mocha --compilers coffee:coffee-script/register --reporter dot"
+  },
+  "version": "1.0.0"
+}
